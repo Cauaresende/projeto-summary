@@ -18,6 +18,8 @@
     
     .blue-section {
         border-radius: 20px;
+        position: relative;
+        left: 15px;
     }
 
     .blue-section h1 {
