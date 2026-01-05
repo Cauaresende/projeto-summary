@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 800px)  {
+    body {
+        background-color: hsl(221, 100%, 96%);
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 400px 400px;
+        place-content: center;
+        height: 100vh;
+    }
+    
+    .blue-section {
+        border-radius: 20px;
+    }
+
+    .blue-section h1 {
+       padding: 20px 0px;
+    }
+
+    .result-number {
+        margin: 20px 0px;
+    }
+
+    .result-word {
+        font-size: 25px;
+        padding: 20px 0px;
+    }
+
+    .result-description {
+        font-size: 16px;
+    }
+    
+    .white-section {
+        background-color: white;
+        padding: 20px;
+        border-radius: 0px 20px 20px 0px;
+    }
+
+    .summary-item {
+        margin: 20px 20px;
+    }
+
+}

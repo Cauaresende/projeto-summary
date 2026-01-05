@@ -36,6 +36,7 @@ body {
     text-align: center;
     color: white;
     padding: 20px 0px;
+    border-radius: 0px 0px 20px 20px;
     
     display: flex;
     flex-direction: column;
@@ -83,6 +84,7 @@ body {
 }
 
 .white-section h2 {
+    color: var(--color-textdarkgray);
     font-size: 18px;
     padding: 20px 20px 0;
     text-align: justify;
@@ -159,4 +161,8 @@ button {
     padding: 15px 100px;
     border-radius: 20px;
     cursor: pointer;
+}
+
+button:active {
+    background-image: linear-gradient(to bottom, var(--color-purplegradient), var(--color-bluegradient));
 }
